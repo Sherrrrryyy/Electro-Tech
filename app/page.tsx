@@ -18,6 +18,7 @@ import {
   Menu,
 } from "lucide-react"
 import Pic1 from "../public/1.jpg";
+import Pic2 from "../public/2.jpg";
 import Image from "next/image"
 import Link from "next/link"
 
@@ -353,7 +354,7 @@ export default function ElectricalSolutionsWebsite() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src={Pic2}
                 alt="Professional electrical team"
                 width={500}
                 height={500}
