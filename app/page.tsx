@@ -17,6 +17,7 @@ import {
   ArrowRight,
   Menu,
 } from "lucide-react"
+import Pic1 from "../public/1.jpg";
 import Image from "next/image"
 import Link from "next/link"
 
@@ -83,16 +84,7 @@ export default function ElectricalSolutionsWebsite() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  Get Started
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <Button size="lg" variant="outline">
-                  View Our Work
-                </Button>
-              </div>
-
+           
               <div className="grid grid-cols-3 gap-8 pt-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">500+</div>
@@ -111,12 +103,12 @@ export default function ElectricalSolutionsWebsite() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src={Pic1}
                 alt="Electrical engineer working on control panel"
                 width={600}
                 height={600}
-                className="rounded-2xl shadow-2xl"
-              />
+                className="rounded-2xl shadow-2xl"/>
+
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Shield className="h-8 w-8 text-green-600" />
